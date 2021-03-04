@@ -6,3 +6,16 @@ body * {
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+body{
+    background-color: #313F55;
+}
+
+.container{
+    font-family: system-ui, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    width: 1600px;
+    /*height: 920px;*/
+    margin-left: calc((100% - 1600px) / 2);
+    background-color: #F0F2F7;
+}
