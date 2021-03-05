@@ -18,4 +18,75 @@ body{
     /*height: 920px;*/
     margin-left: calc((100% - 1600px) / 2);
     background-color: #F0F2F7;
+    padding: 45px;
+}
+
+/* -------LEFT COLUMN------- */
+.left-col{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 22%;
+}
+
+.nav{
+    float: left;
+    cursor: pointer;
+}
+
+.button-area{
+    display: inline-block;
+
+}
+
+/* -------RIGHT COLUMN------- */
+.right-col{
+    background-color: darkorange;
+    float: right;
+    width: 78%;
+}
+
+.queue{
+    background-color: #f44336;
+    display: inline-block;
+    width: 100%;
+    padding: 45px;
+}
+
+/* Right column bottom area */
+.lists{
+    background-color: aquamarine;
+    float: left;
+    width: 61%;
+    padding: 45px;
+}
+
+.alerts{
+    background-color: darkseagreen;
+    float: left;
+    width: 39%;
+    padding: 45px;
+}
+
+
+
+/*------------------*/
+.nav > a:link, .nav > a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .nav > a:hover, .nav > a:active {
+    background-color: red;
+  }
+
+  fb-icon{
+    background:url('path/to/image/image.png') no-repeat 0 0;
+}
+
+fb-icon:hover{
+    background:url('path/to/image/image.png') no-repeat 0 -100px;
 }
