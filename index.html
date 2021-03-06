@@ -7,6 +7,7 @@
     <title>Hommy</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <script src="./script/script.js"></script>
 </head>
 
 <body>
@@ -65,29 +66,29 @@
             <div class="r-col-bottom">
                 <div class="lists">
                     <div class="tenants">
-                        <h1>Tenants</h1>
-                        <ul>
+                        <button type="button" value="tenants"onclick="showtenants()">Tenants</button>
+                        <ul id="tenantslist">
                             <li><img src="./img/tenant1.png" alt="tenant-img">
-                                Julia Marlot $2500 11 Months ...</li>
-                                <li><img src="./img/tenant2.png" alt="tenant-img">
-                                Linda Paul $1234 14 months ...</li>
-                                <li><img src="./img/tenant3.png" alt="tenant-img">
-                                Niko Veid $1463 13 months ...</li>
-                                <li><img src="./img/tenant4.png" alt="tenant-img">
-                                    Nolan Ice $1355 43 months ...</li>
+                            Julia Marlot $2500 11 Months ...</li>
+                            <li><img src="./img/tenant2.png" alt="tenant-img">
+                            Linda Paul $1234 14 months ...</li>
+                            <li><img src="./img/tenant3.png" alt="tenant-img">
+                            Niko Veid $1463 13 months ...</li>
+                            <li><img src="./img/tenant4.png" alt="tenant-img">
+                            Nolan Ice $1355 43 months ...</li>
                         </ul>
                     </div>
-                    <div class="organizations">
-                        <h1>Organizations</h1>
-                        <ul>
-                            <li><img src="./img/tenant1.png" alt="org-img">
-                                Julia Marlot $2500 11 Months ...</li>
-                                <li><img src="./img/tenant2.png" alt="org-img">
-                                Linda Paul $1234 14 months ...</li>
+                    <div class="organizations" id="organizations">
+                        <button type="button" value="Organizations" onclick="showorganizations()">Organizations</button>
+                        <ul id="organizationslist">
                                 <li><img src="./img/tenant3.png" alt="org-img">
                                 Niko Veid $1463 13 months ...</li>
                                 <li><img src="./img/tenant4.png" alt="org-img">
                                 Nolan Ice $1355 43 months ...</li>
+                                <li><img src="./img/tenant1.png" alt="org-img">
+                                Julia Marlot $2500 11 Months ...</li>
+                                <li><img src="./img/tenant2.png" alt="org-img">
+                                Linda Paul $1234 14 months ...</li>
                         </ul>
                     </div>
                 </div>
