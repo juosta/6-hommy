@@ -20,14 +20,30 @@ body{
     background-color: #F0F2F7;
     padding: 45px;
     margin-top: 50px;
-
-}
+    }
 
 /* -------LEFT COLUMN------- */
 .left-col{
     display: inline-block;
     width: 22%;
     border-right: solid 1px #d0d6e4;
+}
+
+.left-col > img{
+    margin-bottom: 50px;
+    width: 100px;
+}
+
+.user-icon > img{
+    float: left;
+    margin-right: 30px;
+}
+.user-icon > h2{
+    font-size: 23px;
+    padding-top: 20px;
+}
+.user-icon{
+    margin-bottom: 110px;
 }
 
 nav{
@@ -39,26 +55,64 @@ nav{
     width: 100%;
     float: left;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px;
+    
 }
 .nav > a > img{
-    display: inline-block;
+    width: 56px;
     float:left;
 }
-.nav > a > h2{
-    display: inline-block;
+.nav > a > h2, .nav > a > p{
+    width: calc(100% - 56px);
     float:left;
+    color:#233B58;
+    padding: 7px 0px 0px 35px;
+    
 }
 .nav > a > p{
-    display: inline-block;
-    float:left;
+    padding: 0px 0px 0px 35px;
+    font-size: 17px;
+    font-weight: lighter;
+    color:#7e828a;
 }
 
 .button-area{
     display: inline-block;
     width: 100%;
+    margin-top: 145px;
 }
+
+.button-area > .girl{
+    float: left;
+    width: 97px;
+    margin-left: 4px;
+}
+.button-area > div{
+    margin-top: 10px;
+    background-color: #474DDC;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.button-area > div > a, .button-area > div > p{
+    display: inline-block;
+    margin: 25px 0 7px 15px;
+    width: calc(100% - 97px - 24px);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.button-area > div > a >p{
+   font-weight: normal;
+   margin: 5px 0 15px 0px;
+}
+.button-area > div > a> p > img{
+    margin-right:12px;
+    margin-top: 2px
+}
+
+
+
 
 /* -------RIGHT COLUMN------- */
 .right-col{
@@ -102,9 +156,10 @@ nav{
     font-weight: bold;
 }
 
+
 .tenants{
     display: inline-block;
-    z-index: 2;
+    z-index: 1;
     visibility: visible;
 }
 
@@ -179,6 +234,7 @@ li > span{
     margin-left: 30px;
     display: inline-block;
     width: 30px;
+    
   }
   
   .dropdown-content {
@@ -188,6 +244,8 @@ li > span{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin: 0 -25%;
+    border-radius: 19px;
   }
   
   .dropdown-content a {
@@ -211,21 +269,18 @@ li > span{
 .organizations{
     display: inline-block;
     width: 485px;
-    z-index: 1;
-    position: relative;
-    top: 0;
+    z-index: 0;
 }
 
 
 #tenantslist{
     display: grid;
     visibility: visible;
+    
 }
 #organizationslist{
     display: grid;
-    position: relative;
     visibility:hidden;
-    float: left;
     top: -300px;
 }
 
@@ -284,13 +339,15 @@ li > span{
 
 /*------------------*/
 .nav > a:link, .nav > a:visited {
-    color: white;
     text-decoration: none;
     display: inline-block;
   }
   
   .nav > a:hover, .nav > a:active {
-    background-color: red;
+    background-color: white;
+    border-radius: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
   }
 /* changing img on hover
   fb-icon{
