@@ -344,7 +344,10 @@ li > span{
   }
   
   .nav > a:hover, .nav > a:active {
-    background-color: red;
+    background-color: white;
+    border-radius: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
   }
 /* changing img on hover
   fb-icon{
