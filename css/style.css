@@ -187,21 +187,13 @@ nav{
     position: relative;
 }
 
-/* ---------------------------------------------------------------------
-.rent > progress{
-    width: 120px;
-    height: 10px;
-    
-}
-
-progress::-webkit-progress-value {background-color: #000; width: 100%;}
-.utilities > progress{
+/* PROGRESS 
+------------------------------------------------------------------------------------------*/
+progress{
     width: 120px;
 }
-progress::-webkit-progress-bar { background: #fff; }
-progress::-webkit-progress-value { background: #0063a6; }
 
------------------------------------------------------------------------*/
+
 .pay-button{
     display: inline-block;
     position: absolute;
@@ -240,9 +232,11 @@ progress::-webkit-progress-value { background: #0063a6; }
 .cards{
     float:right;
     width: 56%;
-    overflow-x: scroll;
+    overflow-x: hidden;
     white-space: nowrap;
 }
+
+
 
 .first-card , .second-card , .third-card{
     display: inline-block;
