@@ -81,7 +81,7 @@ nav{
 .button-area{
     display: inline-block;
     width: 100%;
-    margin-top: 145px;
+    margin-top: 120px;
 }
 
 .button-area > .girl{
@@ -128,19 +128,119 @@ nav{
     width: 100%;
     padding: 45px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .payments-info{
-    background-color: #FF8568;
     float:left;
     width: 44%;
+    padding-right: 70px;
 }
 
+.payments-info > h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+    color:#7e828a;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+.payments-info > div > p{
+    display: inline-block;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: -4px;
+    margin-bottom: 50px;
+}
+.payments-info > div > span{
+    font-size: 25px;
+    padding-right: 4px;
+}
+
+.utilities > label, .rent > label{
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.utilities > label > span, .rent > label > span {
+    font-weight: bold;
+    position: absolute;
+    right: 25px;
+}
+
+.utilities {
+    float:left;
+    width: 50%;
+    margin-top: 10px;
+    color:#7e828a;
+    position: relative;
+}
+.rent {
+    float:right;
+    width: 50%;
+    margin-top: 10px;
+    color:#7e828a;
+    position: relative;
+}
+
+/* ---------------------------------------------------------------------
+.rent > progress{
+    width: 120px;
+    height: 10px;
+    
+}
+
+progress::-webkit-progress-value {background-color: #000; width: 100%;}
+.utilities > progress{
+    width: 120px;
+}
+progress::-webkit-progress-bar { background: #fff; }
+progress::-webkit-progress-value { background: #0063a6; }
+
+-----------------------------------------------------------------------*/
+.pay-button{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    bottom: 45px;
+    left: 45px;
+}
+.pay-button > a{
+    font-size: 13px;
+    background-color: #474DDC;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 27px;
+    margin-right: 20px;
+    
+} 
+.pay-button > a > span{
+    padding-left: 55px;
+}
+.pay-button > button{
+    margin-top: -14px;
+    display: inline-block;
+    border:none;
+    background-color:#F0F2F7;
+    border-radius: 50%;
+    padding: 18px 18px 9px 16px;
+}
+.pay-button > button > img{
+    width: 10px;
+    height: 10px;
+}
 
 .cards{
     float:right;
     width: 56%;
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: nowrap;
 }
 
@@ -167,7 +267,7 @@ nav{
     font-weight: bold;
     font-size: 17px;
 }
-.amount{
+.pay-amount{
     display:inline-block;
     font-size: 35px;
     font-weight: bold;
@@ -186,11 +286,6 @@ nav{
 .third-card{
     margin-right: 0;
     background-image: linear-gradient(#99DCBE, #FDF3B3);
-}
-::-webkit-scrollbar{
-}
-::-webkit-scrollbar-thumb:horizontal{
-
 }
 
 
