@@ -20,6 +20,7 @@ body{
     background-color: #F0F2F7;
     padding: 45px;
     margin-top: 50px;
+    border-radius: 47px;
     }
 
 /* -------LEFT COLUMN------- */
@@ -131,11 +132,15 @@ nav{
 }
 
 /* Right column bottom area */
+.r-col-bottom{
+    padding: 30px;
+    position: relative;
+}
 .lists{
     float: left;
     width: 61%;
-    padding: 30px;
     margin-top: 20px;
+    position: absolute;
 }
 .lists > button{
     display: inline-block;
@@ -157,10 +162,12 @@ nav{
 }
 
 
-.tenants{
+.tenants, .organizations{
     display: inline-block;
     z-index: 1;
-    visibility: visible;
+    position: absolute;
+    top: 20px;
+    left: 0px;
 }
 
 li > img{
@@ -171,10 +178,9 @@ li > img{
 }
 ul{
     display:inline-block;
-    width: 485px;
+    width: 527px;
     overflow-x: hidden;
     overflow-y: scroll; 
-    position: relative;
     margin-top: 20px;
 }
 
@@ -183,6 +189,7 @@ ul::-webkit-scrollbar{
 }
 
 li{
+    width: 527px;
     list-style-type: none;
     display: inline-block;
     padding: 5px 0;
@@ -266,30 +273,32 @@ li > span{
   }
   /*----------------------------------------------------------------------*/
 
-.organizations{
+/*.organizations{
     display: inline-block;
     width: 485px;
     z-index: 0;
-}
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}*/
 
 
 #tenantslist{
-    display: grid;
     visibility: visible;
     
 }
 #organizationslist{
-    display: grid;
     visibility:hidden;
-    top: -300px;
+    
 }
 
 .alerts{
+    position: absolute;
+    right: 0px;
     background-color: white;
-    float: left;
+    float: right;
     width: calc(39% - 30px);
     padding: 30px;
-    margin: 30px 0 30px 30px;
     border-radius: 30px;
 }
 .alerts > h2{
