@@ -194,6 +194,7 @@ nav{
     background-color: #F0F2F7;
     width: 83%;
     border-radius: 3px;
+    margin: 10px 0;
 }
 
 #utilities{
@@ -440,22 +441,9 @@ li > span{
   }
   /*----------------------------------------------------------------------*/
 
-/*.organizations{
-    display: inline-block;
-    width: 485px;
-    z-index: 0;
-    position: absolute;
-    top: 70px;
-    left: 0px;
-}*/
 
-
-#tenantslist{
-    visibility: visible;
-    
-}
 #organizationslist{
-    visibility:hidden;
+    display: none;
     
 }
 
