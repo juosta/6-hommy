@@ -194,6 +194,7 @@ nav{
     background-color: #F0F2F7;
     width: 83%;
     border-radius: 3px;
+    margin: 10px 0;
 }
 
 #utilities{
@@ -440,22 +441,9 @@ li > span{
   }
   /*----------------------------------------------------------------------*/
 
-/*.organizations{
-    display: inline-block;
-    width: 485px;
-    z-index: 0;
-    position: absolute;
-    top: 70px;
-    left: 0px;
-}*/
 
-
-#tenantslist{
-    visibility: visible;
-    
-}
 #organizationslist{
-    visibility:hidden;
+    display: none;
     
 }
 
@@ -525,22 +513,5 @@ li > span{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
-/* changing img on hover
-  fb-icon{
-    background:url('path/to/image/image.png') no-repeat 0 0;
-}
-
-fb-icon:hover{
-    background:url('path/to/image/image.png') no-repeat 0 -100px;
-}*/
-/* overlay one emelent with other
-.container {
-    display: grid;
-  }
-  
-  .content, .overlay {
-    grid-area: 1 / 1;
-  }*/
-
   
   
