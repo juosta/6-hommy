@@ -170,6 +170,7 @@ nav{
     font-weight: bold;
     position: absolute;
     right: 25px;
+    color:#233B58;
 }
 
 .utilities {
@@ -189,10 +190,24 @@ nav{
 
 /* PROGRESS 
 ------------------------------------------------------------------------------------------*/
-progress{
-    width: 120px;
+.progress-field{
+    background-color: #F0F2F7;
+    width: 83%;
+    border-radius: 3px;
 }
 
+#utilities{
+    border-radius: 3px;
+    height: 5px;
+    width: 75%;
+    background-color: #80CE8C;
+}
+#rent{
+    border-radius: 3px;
+    height: 5px;
+    width: 25%;
+    background-color: #F2BE42;
+}
 
 .pay-button{
     display: inline-block;
